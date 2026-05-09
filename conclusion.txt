@@ -1,0 +1,43 @@
+Tasks compeleted:
+- well implementation of firebase with suffecient difficulty
+    * same location of apple and player at all time when multiple screens are opened
+- comments are ok, all variable and function reflects functionalities
+- code is pretty logical
+- the player snake is growing after apple collision
+- detects game over (collision between snakes or to wall)
+- shows game start and game over screen
+- apple is respawning in random location
+- snake can not go pass the canvas screen
+- FBS is stablized
+
+Tasks incompelete (due to time constraints):
+- growth of snake is not insync between screens
+    * issue with new growth is not drawn on screen or new growth is not updated to firebase
+    * definitely already get the new width from onValue
+- snake should be able to turn (vertical or horizontal body is shown depending on the direction of movement)
+- snake should always move in a certain velocity whether if player press wasd or not
+- code can be organize better, in better oop standard, including...
+    * controller for enter key should be in controller class
+    * game over and start should in their seperate classes
+    * onvalues should be in their seperated methods of each corresponding class (e.g. snake onvalue should be under snake class)
+- interface can be more visually appealing
+    * snake can be drawn using image instead of black rectangle
+    * more asthetetic interface for game over and game start
+- snake should show highest score amount all the players in game over page
+    * firebase stores the highest score among all the players
+- need to refactor the project's code better
+
+
+Next Time:
+If I have a chance to do this project again, even if I have a lot of tests and exams for 
+other classes, I will at least use the class time more wisely and maybe squeeze in 30 minutes 
+each day so I can at least understand how firebase works (by running teacher's given code and watching videos on the new tech) 
+and implement firebase to project (project's data --> firebase library --> project). During this process, I don't need to make 
+everything pretty, objects can represented as shapes. The purpose is just to get to know how to implement the new tech. So 
+even if I encounter problems during school days, I can ask the teacher, which makes this learning process much easier. 
+(This time I didn't do that, which makes everything pretty challenging as I need to figure out everything myself. I can't even run 
+the teacher's code properly for some reason)
+
+I am unable to compelete the game thoroughly due to a lot exams and summatives. 
+I hope you can take some consideration into the incompelete portion of the project.
+Thank you!

@@ -1,0 +1,23 @@
+// {
+//   "compilerOptions": {
+//     "target": "es6",
+//     "outDir": "dist", //optionally use “” to not use an output folder
+//     "sourceMap": true,
+//     "strict": true,
+//     "strictPropertyInitialization": false,
+//     "module": "ES6"
+//   },
+//   "include": ["src/**/*"],
+//  }
+
+{
+  "compilerOptions": {
+    "target": "ESnext",
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "outDir": "dist", //optionally use “” to not use an output folder
+    "sourceMap": true,
+  },
+  "include": ["src/**/*"], 
+}
+  
